@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pradeep M | Digital Growth Architect</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:#e5e7eb;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#020617;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-weight:600;
+font-size:22px;
+color:#fff;
+}
+
+nav a{
+color:#cbd5f5;
+text-decoration:none;
+margin-left:25px;
+font-size:14px;
+}
+
+/* Hero */
+
+.hero{
+padding:110px 8%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero h1{
+font-size:48px;
+color:#fff;
+}
+
+.hero p{
+margin-top:14px;
+color:#94a3b8;
+max-width:520px;
+}
+
+.hero img{
+width:100%;
+max-width:380px;
+border-radius:18px;
+box-shadow:0 20px 60px rgba(0,0,0,0.5);
+}
+
+.hero-img{
+display:flex;
+justify-content:center;
+}
+
+.btn{
+display:inline-block;
+margin-top:22px;
+padding:12px 28px;
+background:#6366f1;
+border-radius:8px;
+color:#fff;
+text-decoration:none;
+font-size:14px;
+}
+
+/* Section */
+
+.section{
+padding:80px 8%;
+}
+
+.section-title{
+font-size:30px;
+margin-bottom:30px;
+}
+
+/* Services */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:26px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+background:#273449;
+}
+
+/* Portfolio */
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+/* Case Study */
+
+.case-study{
+background:#111827;
+padding:30px;
+border-radius:10px;
+margin-top:20px;
+}
+
+/* Stats */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.stat{
+background:#1e293b;
+padding:22px;
+border-radius:10px;
+text-align:center;
+}
+
+.stat h3{
+font-size:30px;
+color:#6366f1;
+}
+
+/* Contact */
+
+.contact-box{
+background:#111827;
+padding:40px;
+border-radius:10px;
+text-align:center;
+}
+
+.contact-box p{
+margin:8px 0;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+color:#94a3b8;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero p{
+margin:auto;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero p{
+margin:auto;
+}
+
+}
+  
+
+@media(max-width:768px){
+
+#contact div{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+}
+
+@media(max-width:900px){
+
+#contact div{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+}  
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Pradeep M</div>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<h1>Web & Digital Growth Architect</h1>
+
+<p>
+Digital Marketing Manager with 14+ years experience helping businesses grow using strategic digital marketing, performance advertising, and high-converting web systems.
+</p>
+
+<a class="btn" href="#contact">Hire Me</a>
+
+</div>
+
+<div class="hero-img">
+<img src="hero-img-01.png" alt="Pradeep M Portrait">
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="section" id="services">
+
+<h2 class="section-title">Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Website Development</h3>
+<p>WordPress business websites, landing pages, and ecommerce stores.</p>
+</div>
+
+<div class="card">
+<h3>SEO Optimization</h3>
+<p>On-page SEO, keyword strategy, and organic traffic growth.</p>
+</div>
+
+<div class="card">
+<h3>Performance Advertising</h3>
+<p>Google Ads, Meta Ads & LinkedIn campaigns focused on lead generation.</p>
+</div>
+
+<div class="card">
+<h3>Social Media Marketing</h3>
+<p>Content planning, audience growth, and brand positioning.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section class="section" id="portfolio">
+
+<h2 class="section-title">Selected Projects</h2>
+
+<div class="portfolio">
+
+<div class="project">
+<h3>Exhibition Lead Generation Campaign</h3>
+<p>Generated 40-50% more qualified leads using paid advertising and optimized landing pages.</p>
+</div>
+
+<div class="project">
+<h3>Ecommerce Website Growth</h3>
+<p>SEO and advertising campaigns increased online product enquiries and conversions.</p>
+</div>
+
+<div class="project">
+<h3>200+ Landing Pages</h3>
+<p>Designed high-converting landing pages supporting marketing campaigns.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="section" id="about">
+
+<h2 class="section-title">Professional Summary</h2>
+
+<p>
+Digital Marketing Manager with 14+ years of experience across B2B exhibitions, SaaS products, ecommerce, education, and government service environments. Specialized in lead generation marketing systems, performance campaigns, and digital growth strategies that align with business revenue goals.
+</p>
+
+<br>
+
+<h3 style="margin-bottom:30px;">Core Skills</h3>
+<div class="services">
+<div class="card"><h4>Marketing Strategy & Planning</h4></div>
+<div class="card"><h4>Lead Generation & Growth Marketing</h4></div>
+<div class="card"><h4>Brand Positioning & Campaign Management</h4></div>
+<div class="card"><h4>Digital Marketing (SEO, Paid Media, Funnels)</h4></div>
+<div class="card"><h4>Sales & Marketing Alignment</h4></div>
+<div class="card"><h4>Budgeting, ROI & Performance Tracking</h4></div>
+<div class="card"><h4>CRM, Analytics & Reporting</h4></div>
+<div class="card"><h4>Team Leadership & Vendor Management</h4></div>
+</div>
+  
+<br><br>
+
+<h2 class="section-title">Industry Experience</h2>
+
+<div class="services">
+
+<div class="card">Government Services</div>
+<div class="card">Education Sector</div>
+<div class="card">Manufacturing Industry</div>
+<div class="card">SaaS Products</div>
+<div class="card">Trade Fairs & Exhibitions</div>
+<div class="card">Ecommerce & Retail</div>
+
+</div>
+
+  
+<!-- Professional Experience -->
+
+<section class="section">
+  
+<h3 style="margin-bottom:30px;">Professional Experience</h3>
+<div class="portfolio">
+<div class="project"><h4>Sr. Web Developer & Digital Marketing</h4><p><strong>Midaas Touch Events and Trade Fairs LLP – Chennai</strong><br>Aug 2021 – Nov 2025<br>Owned end-to-end marketing strategy for multiple B2B and B2C exhibitions, executing multi-channel campaigns, building lead generation funnels, and coordinating with sales teams to drive exhibitor bookings and visitor registrations.</p></div>
+
+<div class="project"><h4>Website Designer & Digital Marketing Specialist</h4><p><strong>Raja Spiritual Pvt Ltd – Kanchipuram</strong><br>Dec 2019 – Jan 2023<br>Led digital marketing initiatives for ecommerce growth including SEO, paid campaigns, analytics tracking, and conversion optimization.</p></div>
+
+<div class="project"><h4>Web Designer & Developer</h4><p><strong>Smart Expos and Fairs India Pvt Ltd – Chennai</strong><br>Oct 2014 – Dec 2019<br>Developed websites and supported digital promotions for exhibitions and trade events.</p></div>
+
+<div class="project"><h4>Webmaster (SEO Strategist)</h4><p><strong>Jothi Soft Tech Pvt Ltd – Thiruvanmiyur</strong><br>Feb 2014 – Sep 2014<br>Managed website optimization, SEO strategy implementation, and online presence growth.</p></div>
+
+<div class="project"><h4>Jr. Project Developer & Sales Marketing Assistant</h4><p><strong>Spiro Solution Pvt Ltd – Kanchipuram</strong><br>Aug 2013 – Jan 2014<br>Supported promotion of Java training programs and academic project services while assisting in student lead generation and enrollments.</p></div>
+
+<div class="project"><h4>Documentation Analyst</h4><p><strong>L&T Valves Ltd (via VAMS India Pvt Ltd)</strong><br>Apr 2013 – Jul 2013<br>Handled documentation and process-related operational support in manufacturing environment.</p></div>
+
+<div class="project"><h4>Process Associate</h4><p><strong>Sukhvarsha Management Services – Origin ITFS</strong><br>Sep 2012 – Mar 2013<br>Worked on Aadhaar enrollment and verification processes in a government services environment.</p></div>
+</div>
+
+</section>
+
+  
+<!-- Key Achievements -->
+
+<section class="section">  
+<h3 style="margin-bottom:30px;">Key Achievements</h3>
+<div class="services">
+<div class="card"><p>Increased qualified leads by 40–50% across multiple exhibitions through optimized digital campaigns.</p></div>
+<div class="card"><p>Managed marketing for 10+ industrial B2B & B2C trade fairs and exhibitions annually.</p></div>
+<div class="card"><p>Delivered 200+ conversion-focused landing pages designed to support marketing and sales funnels.</p></div>
+<div class="card"><p>Led cross‑functional teams including design, content, digital marketing, and sales to execute integrated campaigns aligned with revenue goals.</p></div>
+</div>
+</section>
+  
+<!-- Key Achievements -->
+
+<section class="section">   
+  
+<h3 style="margin-bottom:30px;">Tools & Platforms</h3>
+<div class="services">
+<div class="card"><h4>Design & Creative</h4><p>Adobe Photoshop, Illustrator, CorelDRAW, Canva Pro</p></div>
+<div class="card"><h4>Marketing & Advertising</h4><p>Google Ads, Meta Ads, LinkedIn Ads, SEO tools, campaign analytics</p></div>
+<div class="card"><h4>Analytics & Tracking</h4><p>Google Analytics, learning Adobe Analytics and Adobe Tag Manager</p></div>
+<div class="card"><h4>Technology</h4><p>WordPress CMS, HTML/CSS basics, landing page builders</p></div>
+<div class="card"><h4>Other Skills</h4><p>Basic computer hardware & software troubleshooting</p></div>
+</div>
+</section>
+  
+<div class="stats">
+
+<div class="stat">
+<h3>14+</h3>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h3>200+</h3>
+<p>Landing Pages</p>
+</div>
+
+<div class="stat">
+<h3>40-50%</h3>
+<p>Lead Growth</p>
+</div>
+
+<div class="stat">
+<h3>10+</h3>
+<p>Events / Year Marketing</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CASE STUDY -->
+
+<section class="section">
+
+<h2 class="section-title">Case Study</h2>
+
+<div class="case-study">
+<h3>Industrial B2B Exhibition Lead Generation</h3>
+<ul>
+<li><strong>Challenge:</strong> Low quality leads for exhibitions.</li>
+<li><strong>Strategy:</strong> Meta Ads, LinkedIn Ads, landing page funnels.</li>
+<li><strong>Result:</strong> 40–50% increase in qualified leads.</li>
+</ul>
+</div>
+
+<div class="case-study">
+<h3>International Spiritual E-Commerce Brand</h3>
+<ul>
+<li><strong>Challenge:</strong> Expand global online sales.</li>
+<li><strong>Strategy:</strong> SEO optimization and international digital marketing.</li>
+<li><strong>Result:</strong> Increased traffic and global inquiries.</li>
+</ul>
+</div>
+
+<div class="case-study">
+<h3>SaaS Call Taxi App Marketing</h3>
+<ul>
+<li><strong>Challenge:</strong> Need digital visibility for taxi platform.</li>
+<li><strong>Strategy:</strong> SEO, landing pages, social media campaigns.</li>
+<li><strong>Result:</strong> Improved search ranking and B2B leads.</li>
+</ul>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="section" id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+
+<div>
+
+<p>Email : mprathi81@gmail.com</p>
+
+<p>WhatsApp : +91 96009 34830</p>
+
+<p>Available for freelance projects and consulting.</p>
+
+<a class="btn" 
+href="https://wa.me/919600934830?text=Hello%20Pradeep,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20connect%20and%20discuss%20further." target="_blank">
+Chat on WhatsApp
+</a>
+
+</div>
+
+<div style="text-align:center">
+
+<img src="WhatsApp-QR-Code.jpg" 
+style="width:220px;border-radius:10px">
+
+<p style="margin-top:10px;">
+Scan QR to start WhatsApp chat
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Pradeep M | Digital Marketing & Web Development</p>
+
+</footer>
+
+</body>
+</html>
